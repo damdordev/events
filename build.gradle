@@ -41,11 +41,11 @@ bintray {
     key = System.getenv('BINTRAY_KEY')
     publications = ['MyPublication']
     pkg {
-        repo = 'Kotlin'
+        repo = 'maven'
         name = 'events'
         userOrg = 'damdordev'
         licenses = ['Apache-2.0']
-        vcsUrl = 'https://github.com/damdordev/Event.git'
+        vcsUrl = 'https://github.com/damdordev/events.git'
         labels = ['kotlin']
         version {
             name = '1.0.0'
